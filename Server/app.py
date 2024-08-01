@@ -367,5 +367,5 @@ async def generate_response(userPrompt:str = Form(default=""),file: UploadFile =
         # Return the generated response as JSON
         return JSONResponse(content={"response": response.text})
 
-if __name__ == "__main__":
-    uvicorn.run("app:app",reload=True,port=8000)
+# if __name__ == "__main__":
+#     uvicorn.run("app:app",reload=True,port=8000)
