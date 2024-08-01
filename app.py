@@ -42,7 +42,7 @@ def read_root():
 
 
 if not firebase_admin._apps:
-    cred = credentials.Certificate(r".\serviceAccountKey.json")
+    cred = credentials.Certificate(r"serviceAccountKey.json")
     firebase_admin.initialize_app(cred)
 
 
