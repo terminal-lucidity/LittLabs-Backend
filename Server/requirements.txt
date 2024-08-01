@@ -1,0 +1,15 @@
+uvicorn
+pyrebase4
+shutils
+temp
+langchain
+langchain-community
+fastapi
+python-dotenv
+google-cloud-firestore
+firebase-admin
+google-generativeai
+pydantic
+PyPDF2
+pypdf
+pytest-shutil
